@@ -35,7 +35,7 @@ TODO: add images
 
 The device has 3 sets of connections: power, light output control, and activation input control.
 
-### Power
+#### Power
 
 It is recomened to connect the controller to the same power source as your lights, it is required that they at least share a common ground.  A 12v SLA battery works well in most all situations.  Since one of the lights will be illuminated at any given time you should select a battery that has a capacity to match the length of an event.  A simple way to calculate this is to use the equation: battery capacity in amp-hours / light current in amperes = run time in hours.
 
@@ -43,7 +43,7 @@ Warning: make sure to house any electronics or power sources in a weather resist
 
 TODO: add images
 
-### Light Output Control
+#### Light Output Control
 
 The lines coming from the control device act as switches to ground.  If you need to switch something that needs more power consider using a relay and setting the PWM to its hightest setting.
 
@@ -51,13 +51,15 @@ Positive supply -> Light -> Light Control Line (red,yellow,green)
 
 TODO: add images
 
-### Activation Input Control
+#### Activation Input Control
 
 The input control has an internal pull up voltage at the microcontroller.  This allows you to use a simple switch to activate the input. Wire the switch between the control input and ground.  When the switch is in the on possition it will ground the input activating the start light.
 
 Input Control Line -> Switch -> Ground
 
 TODO: add images
+
+----
 
 ## Circuit
 
