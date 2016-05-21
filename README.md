@@ -63,7 +63,7 @@ TODO: add images
 
 ## Circuit
 
-The idea with this circuit is to make it simple enought for the average DIY person with some electronics experience to assemble.  I opted to use throughhole components and some strip board to assemble the circuit.  The microcontroller used for this project is an Arduino Pro Mini (3v or 5v).
+The goal with this circuit is to make it simple enought for the average DIY person with some electronics experience to assemble.  I opted to use throughhole components and some strip board to assemble the circuit.  The microcontroller used for this project is an Arduino Pro Mini (3v or 5v).
 
 TODO: include circuit schematic and suggested strip board layout.
 
