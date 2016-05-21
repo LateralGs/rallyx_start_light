@@ -23,17 +23,56 @@ The device controls as set of red, yellow, and green lights.  When first powered
 - Input control: switch to ground
 - Microcontroller: Arduino Pro Mini (either 3v or 5v)
 - Aproximate Size: 65mm x 45mm x 20mm
-- Adjustable PWM output
+- Adjustable PWM output: potentiometer
 
 ## Light Recomendations
 
 The device will need to be able to control a red, yellow, and green light.  It is recomended to use LED bulbs whenever possible to reduce power consumption.  One solution is to use an industrial signal light tower designed for 12v.
 
-## Interfacing and Control
+TODO: add images
 
+## Connection Interfacing
 
+The device has 3 sets of connections: power, light output control, and activation input control.
+
+### Power
+
+It is recomened to connect the controller to the same power source as your lights, it is required that they at least share a common ground.  A 12v SLA battery works well in most all situations.  Since one of the lights will be illuminated at any given time you should select a battery that has a capacity to match the length of an event.  A simple way to calculate this is to use the equation: battery capacity in amp-hours / light current in amperes = run time in hours.
+
+Warning: make sure to house any electronics or power sources in a weather resistant way to prevent malfunction of the system.
+
+TODO: add images
+
+### Light Output Control
+
+The lines coming from the control device act as switches to ground.  If you need to switch something that needs more power consider using a relay and setting the PWM to its hightest setting.
+
+Positive supply -> Light -> Light Control Line (red,yellow,green)
+
+TODO: add images
+
+#### Activation Input Control
+
+The input control has an internal pull up voltage at the microcontroller.  This allows you to use a simple switch to activate the input. Wire the switch between the control input and ground.  When the switch is in the on possition it will ground the input activating the start light.
+
+Input Control Line -> Switch -> Ground
+
+TODO: add images
 
 ## Circuit
 
+The idea with this circuit is to make it simple enought for the average DIY person with some electronics experience to assemble.  I opted to use throughhole components and some strip board to assemble the circuit.  The microcontroller used for this project is an Arduino Pro Mini (3v or 5v).
+
+TODO: include circuit schematic and suggested strip board layout.
+
 ## Firmware
 
+TODO: talk about firmware and how to load it onto Arduino
+
+## Case
+
+For the circuit using the strip board layout refrenced above the following enclosure can be used.
+
+- Manufacturer: Pactec
+- Model: K-CNM0000
+- Website: www.pactecenclosures.com
