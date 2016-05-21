@@ -51,7 +51,7 @@ Positive supply -> Light -> Light Control Line (red,yellow,green)
 
 TODO: add images
 
-#### Activation Input Control
+### Activation Input Control
 
 The input control has an internal pull up voltage at the microcontroller.  This allows you to use a simple switch to activate the input. Wire the switch between the control input and ground.  When the switch is in the on possition it will ground the input activating the start light.
 
