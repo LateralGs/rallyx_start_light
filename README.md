@@ -76,5 +76,5 @@ TODO: talk about firmware and how to load it onto Arduino
 For the circuit using the strip board layout refrenced above the following enclosure can be used.
 
 - Manufacturer: Pactec
-- Model: K-CNM0000
+- Model: CNM0000
 - Website: www.pactecenclosures.com
