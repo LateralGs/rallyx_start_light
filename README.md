@@ -17,7 +17,7 @@ The device controls as set of red, yellow, and green lights.  When first powered
 
 ## Specifications
 
-- Power consumption: < 30mA (circuit only)
+- Power consumption: < 30mA (controller only)
 - Input voltage range: 5v - 12v DC
 - Max light current: 500mA (per channel)
 - Input control: switch to ground
