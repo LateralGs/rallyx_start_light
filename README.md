@@ -18,7 +18,7 @@ The device controls as set of red, yellow, and green lights.  When first powered
 ## Specifications
 
 - Power consumption: < 30mA (circuit only)
-- Input voltage range: 5v - 12v
+- Input voltage range: 5v - 12v DC
 - Max light current: 500mA (per channel)
 - Input control: switch to ground
 - Microcontroller: Arduino Pro Mini (either 3v or 5v)
@@ -54,6 +54,10 @@ TODO: add images
 #### Light Output Control
 
 The lines coming from the control device act as switches to ground.  If you need to switch something that needs more power consider using a relay and setting the PWM to its hightest setting.
+
+Warning: The voltage on the light control lines should not exceed the voltage on the power supply lines.  If controlling lights at a higher voltage a relay or other switching circuit can be used between the lights and the output lines.
+
+Note: The controller has an internal diode between the light control outputs and the positive power supply.  If the loads on the light control lines are non inductive this internal diode connection can be removed by cutting the wire between the positive supply and the common pin on the ULN2003A. This could allow for controlling things such as +24v DC lights directly.
 
 Positive supply -> Light -> Light Control Line (red,yellow,green)
 
