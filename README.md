@@ -63,7 +63,7 @@ Warning: The voltage on the light control lines should not exceed the voltage on
 
 Note: The controller has an internal diode between the light control outputs and the positive power supply.  If the loads on the light control lines are non inductive this internal diode connection can be removed by cutting the wire between the positive supply and the common pin on the ULN2003A. This could allow for controlling things such as +24v DC lights directly.
 
-Positive supply -> Light -> Light Control Line (red,yellow,green)
+`Positive supply -> Light -> Light Control Line (red,yellow,green)`
 
 TODO: add images
 
@@ -71,7 +71,7 @@ TODO: add images
 
 The input control has an internal pull up voltage at the microcontroller.  This allows you to use a simple switch to activate the input. Wire the switch between the control input and ground.  When the switch is in the on possition it will ground the input activating the start light.
 
-Input Control Line -> Switch -> Ground
+`Input Control Line -> Switch -> Ground`
 
 TODO: add images
 
