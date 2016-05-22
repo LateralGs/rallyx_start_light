@@ -25,6 +25,8 @@ The device controls as set of red, yellow, and green lights.  When first powered
 - Aproximate Size: 65mm x 45mm x 20mm
 - Adjustable PWM output: potentiometer
 
+![Finall Assembly](https://raw.githubusercontent.com/LateralGs/rallyx_start_light/master/images/finished_assembly.jpg)
+
 ## Light Recomendations
 
 The device will need to be able to control a red, yellow, and green light.  It is recomended to use LED bulbs whenever possible to reduce power consumption.  One solution is to use an industrial signal light tower designed for 12v.
@@ -34,6 +36,12 @@ TODO: add images
 ## Connection Interfacing
 
 The device has 3 sets of connections: power, light output control, and activation input control.
+
+----
+
+![Wiring Diagram](https://raw.githubusercontent.com/LateralGs/rallyx_start_light/master/images/wiring_diagram.png)
+
+----
 
 #### Power
 
@@ -65,7 +73,11 @@ TODO: add images
 
 The goal with this circuit is to make it simple enought for the average DIY person with some electronics experience to assemble.  I opted to use throughhole components and some strip board to assemble the circuit.  The microcontroller used for this project is an Arduino Pro Mini (3v or 5v).
 
-TODO: include circuit schematic and suggested strip board layout.
+----
+
+![Circuit](https://raw.githubusercontent.com/LateralGs/rallyx_start_light/master/images/schematic_schem.png)
+
+----
 
 ## Firmware
 
