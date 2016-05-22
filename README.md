@@ -19,7 +19,7 @@ The device controls as set of red, yellow, and green lights.  When first powered
 
 - Power consumption: < 30mA (controller only)
 - Input voltage range: 5v to 12v DC
-- Max light current: 500mA (per channel) *DC ONLY*
+- Max light current: 500mA (per channel) **DC ONLY**
 - Input control: switch to ground
 - Microcontroller: Arduino Pro Mini (either 3v or 5v)
 - Aproximate Size: 65mm x 45mm x 20mm
