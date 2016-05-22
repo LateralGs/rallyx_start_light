@@ -29,7 +29,11 @@ The device controls as set of red, yellow, and green lights.  When first powered
 
 ## Light Recomendations
 
-The device will need to be able to control a red, yellow, and green light.  It is recomended to use LED bulbs whenever possible to reduce power consumption.  One solution is to use an industrial signal light tower designed for 12v.
+The device will need to be able to control a red, yellow, and green light.  It is recomended to use LED bulbs whenever possible to reduce power consumption.
+
+Light Ideas:
+- Industrial signal tower with 12v bulbs
+- 12v LED panels in a custom housing
 
 TODO: add images
 
