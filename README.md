@@ -33,6 +33,7 @@ The device will need to be able to control a red, yellow, and green light.  It i
 
 Light Ideas:
 - Industrial signal tower with 12v bulbs
+  - Example: https://www.adafruit.com/products/2993
 - 12v LED panels in a custom housing
 
 TODO: add images
